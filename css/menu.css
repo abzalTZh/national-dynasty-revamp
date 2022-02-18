@@ -1,0 +1,33 @@
+body, html {
+  height: 100%;
+  background-color: #343a40;
+}
+
+* {
+  font-family: 'Redressed', cursive;
+  color: white;
+}
+
+.nav-item{
+  padding-right: 2vw;
+}
+
+@media (min-width: 768px) {
+.navbar-brand.abs
+    {
+        position: absolute;
+        width: auto;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+    }
+}
+
+.card-text, .card-title, .btn-primary {
+  color: black !important;
+  font-family: 'Roboto', sans-serif !important;
+}
+
+.card-title {
+  font-weight: bold;
+}

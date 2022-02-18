@@ -1,0 +1,69 @@
+body, html {
+  height: 100%;
+  background-color: #343a40;
+}
+
+* {
+  font-family: 'Redressed', cursive;
+  color: white;
+}
+
+.page-desc span.border {
+  font-size: 2vw;
+  background-color: #343a40;
+  padding: 1vw;
+  border-width: 0px !important;
+  font-family: "Times New Roman", Times, serif !important;
+}
+
+.page-desc {
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.col-md {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 3.7vw;
+  background-color: #343a40;
+}
+
+.carousel-caption h5, p{
+  font-family: 'Roboto', sans-serif !important;
+}
+
+.carousel-caption p {
+  color: #C8C6D7 !important;
+}
+
+.carousel-caption h5 {
+  color: black !important;
+}
+
+.carousel-caption h5{
+  font-weight: bold;
+}
+
+.carousel-control-next, .carousel-control-prev, .carousel-indicators {
+  filter: invert(100%);
+}
+
+.nav-item{
+  padding-right: 2vw;
+}
+
+@media (min-width: 768px) {
+.navbar-brand.abs
+    {
+        position: absolute;
+        width: auto;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+    }
+}

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name=”viewport” content=”width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <title>National Dynasty HOME</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="icon" type="image/x-icon" href="photos_files\logo.ico">
+    <link rel="stylesheet" href="css\home.css">
+    <script src="https://kit.fontawesome.com/c23c78cbb1.js" crossorigin="anonymous"></script>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Redressed&family=Roboto&display=swap');
+
+      .parallax {
+        background-image: url("photos_files/home_bg_img.png");
+        height: 100%;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="Header">
+      <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark py-3 justify-content-center">
+          <a class="navbar-brand abs">national dynasty</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="fa-ul navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="homepage.html"><span class="fa-li" style="--fa-li-width: 1em;"><i class="fa-solid fa-house fa-sm"></i></span>HOME<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="menu.html"><span class="fa-li" style="--fa-li-width: 1em;"><i class="fa-solid fa-book-open fa-sm"></i></span>MENU</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacts.html"><span class="fa-li" style="--fa-li-width: 1em;"><i class="fa-solid fa-address-card fa-sm"></i></span>CONTACTS</a>
+            </li>
+          </ul>
+
+          <div class="dropdown ml-auto dropleft">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-expanded="false">
+              Page Language
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item active" href="#">EN</a>
+              <a class="dropdown-item" href="#">KZ</a>
+              <a class="dropdown-item" href="#">RU</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <div class="parallax">
+      <div class="page-desc">
+        <span class="border">Coffee made with love from the heart of the country <br> Established in Astana, Kazakhstan @ 2001</span>
+      </div>
+    </div>
+
+    <div class="Contents">
+        <div class="container">
+          <div class="row">
+            <div class="col-md"> <br> Promotions <br><br> </div>
+          </div>
+        </div>
+
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="d-block w-100" src="photos_files\coffee_15off.jpg" alt="15% off for coffee">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>15% off for your coffee</h5>
+                <p>Use "SholpanWebDev" promocode at checkout to get 15% off discount for your coffee</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="photos_files\visa_gpay.jpg" alt="Visa & GooglePay collab">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Visa & GooglePay</h5>
+                <p>Pay with Visa card through GooglePay app to get a free gift. More details on our social media pages.</p>
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+  </body>
+</html>

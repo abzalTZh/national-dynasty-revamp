@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name=”viewport” content=”width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <title>National Dynasty HOME</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="icon" type="image/x-icon" href="photos_files\logo.ico">
+    <link rel="stylesheet" href="css\menu.css">
+    <script src="https://kit.fontawesome.com/c23c78cbb1.js" crossorigin="anonymous"></script>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Redressed&family=Roboto&display=swap');
+
+      body {
+        background-image: url("photos_files/menu_bg_img.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+      }
+
+      .all_cards {
+        width:90%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="Header">
+      <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark py-3 justify-content-center">
+          <a class="navbar-brand abs">national dynasty</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="fa-ul navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="homepage.html"><span class="fa-li" style="--fa-li-width: 1em;"><i class="fa-solid fa-house fa-sm"></i></span>HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="menu.html"><span class="fa-li" style="--fa-li-width: 1em;"><i class="fa-solid fa-book-open fa-sm"></i></span>MENU<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacts.html"><span class="fa-li" style="--fa-li-width: 1em;"><i class="fa-solid fa-address-card fa-sm"></i></span>CONTACTS</a>
+            </li>
+          </ul>
+
+          <div class="dropdown ml-auto dropleft">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-expanded="false">
+              Page Language
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item active" href="#">EN</a>
+              <a class="dropdown-item" href="#">KZ</a>
+              <a class="dropdown-item" href="#">RU</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <div class="Contents">
+      <div class="all_cards">
+          <div class="card-deck">
+            <div class="card">
+              <img class="card-img-top" src="photos_files\menu_breakfasts.jpg">
+              <div class="card-body">
+                <h5 class="card-title">Breakfasts</h5>
+                <p class="card-text">The only way to start your day right. Served throughout the day.</p>
+                <a href="photos_files\BREAKFASTS.pdf" class="btn btn-primary">Take a look at the menu.</a>
+              </div>
+            </div>
+
+            <div class="card">
+              <img class="card-img-top" src="photos_files\menu_salads.jpg">
+              <div class="card-body">
+                <h5 class="card-title">Salads</h5>
+                <p class="card-text">Nutritious salads that contain all sorts of vitamins.</p>
+                <a href="photos_files\salads.pdf" class="btn btn-primary">Take a look at the menu.</a>
+              </div>
+            </div>
+
+            <div class="card">
+              <img class="card-img-top" src="photos_files\menu_pasta.jpg">
+              <div class="card-body">
+                <h5 class="card-title">Pasta</h5>
+                <p class="card-text">Traditional Italian pasta and risotto.</p>
+                <a href="photos_files\pasta.pdf" class="btn btn-primary">Take a look at the menu.</a>
+              </div>
+            </div>
+
+            <div class="card">
+              <img class="card-img-top" src="photos_files\menu_pastry.jpg">
+              <div class="card-body">
+                <h5 class="card-title">Pastry & Desserts</h5>
+                <p class="card-text">Croissants, strudels, cakes. All sorts of sweets to eat with your coffee or tea.</p>
+                <a href="photos_files\pastry.pdf" class="btn btn-primary">Take a look at the menu.</a>
+              </div>
+            </div>
+
+            <div class="card">
+              <img class="card-img-top" src="photos_files\menu_drinks.jpg">
+              <div class="card-body">
+                <h5 class="card-title">Drinks</h5>
+                <p class="card-text">Coffee, hot drinks, and iced drinks made with love from our baristas.</p>
+                <a href="photos_files\drinks.pdf" class="btn btn-primary">Take a look at the menu.</a>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+  </body>
+</html>
